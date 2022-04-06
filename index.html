@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido al simulador de credito</h1>
+    </header>
+    <main>
+
+        <section class="form_simulador_fija">
+            <h4>complete lo siguientes datos</h4>
+
+            <input class="controls" type="number" name="dinero_a_prestar" id="dinero_a_prestar"
+                placeholder="¿cuanto dinero necesita?">
+            <input class="controls" type="cantidad_de_cuotas" name="cantidad_de_cuotas" id="cantidad_de_cuotas"
+                placeholder="¿Cantidad de cuotas deseadas?">
+
+            <!--   <input class="controls" type="anio_del_auto" name="anio_del_auto" id="anio_del_auto"
+                placeholder="¿año del auto?"> -->
+            <p id="prestador">Prestador</p>
+            <select id="banco">
+                
+            </select>
+            
+                <input class="botons" type="submit" onclick="tazaDel18()">
+        </section>
+    </main>
+    <footer>
+        <p>todos los derechos son reservados 2022</p>
+    </footer>
+    <script src="./resources/javaScript/main.js"> </script>
+</body>
+
+
+</html>
