@@ -16,7 +16,7 @@ mostrarBancos(bancos, $banco);
 
 
 
-function Cliente(plata,cuotas,bancos){
+function Cliente(plata,cuotas){
     this.plata =plata;
     this.cuotas=cuotas;
     
