@@ -1,5 +1,8 @@
 const ESPACIO = (" ");
 const UVA = 18;
+const ESPECIAL=33;
+const santander_Clasica = 55.5;
+const UIDU_Mila_supervielle = 52;
 
 let $banco = document.getElementById('banco');
 let bancos = ['Santander taza UVA', 'Santander taza ESPECIAL', 'Santander taza tradicional', 'IUDU MILA SUPERVILLER']
@@ -40,4 +43,4 @@ function tazaDel18() {
     }
 }
 
-tazaDel18();
+
